@@ -32,8 +32,8 @@ This results in emergent group behavior without centralized control or global co
 
 Clone the repo and install the package locally:
 
-git clone https://github.com/NithyaSriVenkatesh/fixed_wing_swarm
+git clone https://github.com/NithyaSriVenkatesh/copter-ambala
 
 Install the package from the root directory as follows:
 
-cd swarm_tasks/Examples/basic_tasks python3 fixed_wing.py
+cd swarm_tasks/Examples/basic_tasks python3.8 copter_swarm_modified.py
