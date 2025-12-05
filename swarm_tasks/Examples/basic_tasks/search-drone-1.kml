@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Style id="4">
+            <LineStyle id="5">
+                <color>ff0000ff</color>
+                <colorMode>normal</colorMode>
+                <width>2</width>
+            </LineStyle>
+        </Style>
+        <Placemark id="3">
+            <styleUrl>#4</styleUrl>
+            <LineString id="2">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>80.04802362241497,12.92707652170508,0.0 80.05263122332364,12.927076481050769,0.0 80.05263124006852,12.927989435194643,0.0 80.04802362241497,12.927989475851927,0.0 80.04802362241497,12.928902429935043,0.0 80.05263125681468,12.928902389274793,0.0 80.05263127356213,12.929815343291214,0.0 80.04802362241497,12.92981538395443,0.0 80.04802362241497,12.93072833791008,0.0 80.05263129031086,12.930728297243895,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="7">
+            <name>1</name>
+            <Point id="6">
+                <coordinates>80.04802362241497,12.92707652170508,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="9">
+            <name>2</name>
+            <Point id="8">
+                <coordinates>80.04955948938468,12.92707651718794,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="11">
+            <name>3</name>
+            <Point id="10">
+                <coordinates>80.05109535635427,12.927076503636497,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="13">
+            <name>4</name>
+            <Point id="12">
+                <coordinates>80.05263122332364,12.927076481050769,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="15">
+            <name>5</name>
+            <Point id="14">
+                <coordinates>80.05263124006852,12.927989435194643,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="17">
+            <name>6</name>
+            <Point id="16">
+                <coordinates>80.05109536751752,12.927989457782024,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="19">
+            <name>7</name>
+            <Point id="18">
+                <coordinates>80.0495594949663,12.927989471334453,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="21">
+            <name>8</name>
+            <Point id="20">
+                <coordinates>80.04802362241497,12.927989475851927,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="23">
+            <name>9</name>
+            <Point id="22">
+                <coordinates>80.04802362241497,12.928902429935043,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="25">
+            <name>10</name>
+            <Point id="24">
+                <coordinates>80.04955950054836,12.928902425417238,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="27">
+            <name>11</name>
+            <Point id="26">
+                <coordinates>80.05109537868162,12.928902411863822,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="29">
+            <name>12</name>
+            <Point id="28">
+                <coordinates>80.05263125681468,12.928902389274793,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="31">
+            <name>13</name>
+            <Point id="30">
+                <coordinates>80.05263127356213,12.929815343291214,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="33">
+            <name>14</name>
+            <Point id="32">
+                <coordinates>80.0510953898466,12.92981536588189,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="35">
+            <name>15</name>
+            <Point id="34">
+                <coordinates>80.04955950613083,12.929815379436295,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="37">
+            <name>16</name>
+            <Point id="36">
+                <coordinates>80.04802362241497,12.92981538395443,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="39">
+            <name>17</name>
+            <Point id="38">
+                <coordinates>80.04802362241497,12.93072833791008,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="41">
+            <name>18</name>
+            <Point id="40">
+                <coordinates>80.04955951171375,12.930728333391613,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="43">
+            <name>19</name>
+            <Point id="42">
+                <coordinates>80.0510954010124,12.930728319836222,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="45">
+            <name>20</name>
+            <Point id="44">
+                <coordinates>80.05263129031086,12.930728297243895,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

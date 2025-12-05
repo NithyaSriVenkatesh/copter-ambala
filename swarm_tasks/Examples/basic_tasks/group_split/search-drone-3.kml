@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="237">
+        <Style id="240">
+            <LineStyle id="241">
+                <color>ff000000</color>
+                <colorMode>normal</colorMode>
+                <width>2</width>
+            </LineStyle>
+        </Style>
+        <Placemark id="239">
+            <styleUrl>#240</styleUrl>
+            <LineString id="238">
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>80.05677397132185,12.92801694689763,0.0 80.0659892076337,12.92801678426814,0.0 80.0659892411261,12.92892973833747,0.0 80.05677397132185,12.928929900978831,0.0 80.05677397132185,12.9298428549963,0.0 80.06598927462107,12.92984269234307,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="243">
+            <name>1</name>
+            <Point id="242">
+                <coordinates>80.05677397132185,12.92801694689763,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="245">
+            <name>2</name>
+            <Point id="244">
+                <coordinates>80.05984571676031,12.92801692882769,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="247">
+            <name>3</name>
+            <Point id="246">
+                <coordinates>80.0629174621979,12.928016874617857,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="249">
+            <name>4</name>
+            <Point id="248">
+                <coordinates>80.0659892076337,12.92801678426814,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="251">
+            <name>5</name>
+            <Point id="250">
+                <coordinates>80.0659892411261,12.92892973833747,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="253">
+            <name>6</name>
+            <Point id="252">
+                <coordinates>80.06291748452617,12.92892982869378,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="255">
+            <name>7</name>
+            <Point id="254">
+                <coordinates>80.05984572792444,12.928929882907568,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="257">
+            <name>8</name>
+            <Point id="256">
+                <coordinates>80.05677397132185,12.928929900978831,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="259">
+            <name>9</name>
+            <Point id="258">
+                <coordinates>80.05677397132185,12.9298428549963,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="261">
+            <name>10</name>
+            <Point id="260">
+                <coordinates>80.05984573908944,12.929842836923719,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="263">
+            <name>11</name>
+            <Point id="262">
+                <coordinates>80.06291750685614,12.929842782705979,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="265">
+            <name>12</name>
+            <Point id="264">
+                <coordinates>80.06598927462107,12.92984269234307,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
