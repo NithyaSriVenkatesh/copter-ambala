@@ -1,6 +1,10 @@
 import swarm_tasks.envs as envs
 import swarm_tasks.utils as utils
+<<<<<<< HEAD
 import os
+=======
+
+>>>>>>> bf6c926fa17c4127fce463b7e899dece4d30d928
 import numpy as np
 import pandas as pd
 import random
@@ -26,6 +30,7 @@ class Simulation:
         # Load world into self.env
         if env_name == None:
             self.env = envs.world.World()
+<<<<<<< HEAD
             self.env_name = "rectangles"
             print("Using rectangles world")
 
@@ -37,6 +42,16 @@ class Simulation:
             self.env_name = env_name
             print(f"Loaded world from: {env_name}")
 
+=======
+            self.env_name = "Default"
+            print("Using default world")
+
+        else:
+            self.env = envs.world.World(filename=env_name + ".yaml")
+            self.env_name = env_name
+
+        print("self.env.size", self.env.size)
+>>>>>>> bf6c926fa17c4127fce463b7e899dece4d30d928
         # Set simulation parameters based on world and robots
         self.size = self.env.size
 
@@ -174,7 +189,11 @@ class Simulation:
             print("Removed bot:", removed_bot)
             for i, bot in enumerate(self.swarm):
                 print("self.swarm", self.swarm[i])
+<<<<<<< HEAD
                 # print("bot.set_sim(self)", bot.set_sim(self))
+=======
+                print("bot.set_sim(self)", bot.set_sim(self))
+>>>>>>> bf6c926fa17c4127fce463b7e899dece4d30d928
                 bot.set_sim(self)
                 print(f"Updated bot at index {i}: {bot}")
             # Update the speed for all bots after removing one

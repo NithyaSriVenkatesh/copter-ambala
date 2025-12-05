@@ -3,7 +3,11 @@ from scipy.interpolate import CubicSpline
 
 DEFAULT_NEIGHBOURHOOD_VAL = 100  # neighbourhood radius
 DEFAULT_SIZE = 0.6  # Radius of chassis
+<<<<<<< HEAD
 MAX_SPEED = 2.1
+=======
+MAX_SPEED = 1.2
+>>>>>>> bf6c926fa17c4127fce463b7e899dece4d30d928
 MAX_ANGULAR = 0.3
 DEFAULT_STATE = 0
 SEARCH_STATE = 2

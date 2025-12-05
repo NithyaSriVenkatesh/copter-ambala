@@ -75,7 +75,10 @@ sock2.setblocking(0)
 
 
 def read_origin(filepath):
+<<<<<<< HEAD
     print("Reading YAML from:", filepath)
+=======
+>>>>>>> bf6c926fa17c4127fce463b7e899dece4d30d928
     with open(filepath) as f:
         data = yaml.safe_load(f)
 
@@ -90,6 +93,7 @@ def read_origin(filepath):
     return origin
 
 
+<<<<<<< HEAD
 documents_path = os.path.join(os.path.expanduser("~"), "Documents")
 read_origin_path = os.path.join(
     documents_path, "swarm_env", "rectangles.yaml"
@@ -99,6 +103,12 @@ print("read_origin_path", read_origin_path)
 # read_origin_path = r"D:\nithya\copter\swarm_tasks\envs\worlds\rectangles.yaml"
 # # master_num==3
 # # master_flag=True
+=======
+# Example use
+read_origin_path = r"D:\nithya\copter\swarm_tasks\envs\worlds\rectangles.yaml"
+# master_num==3
+# master_flag=True
+>>>>>>> bf6c926fa17c4127fce463b7e899dece4d30d928
 file_name = "rectangles"
 
 disperse_multiple_goals = []
@@ -108,7 +118,11 @@ goal_points = []
 agg_goal_point = []
 origin = []
 removed_uav_homepos_array = []
+<<<<<<< HEAD
 bot_speed = 1.9
+=======
+bot_speed = 1.8
+>>>>>>> bf6c926fa17c4127fce463b7e899dece4d30d928
 
 master_num = 0
 master_flag = True
@@ -129,7 +143,10 @@ if file_name == "chandigarh":
 if file_name == "rectangles":
     origin = read_origin(read_origin_path)
     print("Origin!!!!", origin)
+<<<<<<< HEAD
     file_name = read_origin_path
+=======
+>>>>>>> bf6c926fa17c4127fce463b7e899dece4d30d928
 
 nextwaypoint = 0
 
@@ -245,14 +262,20 @@ def vehicle_collision_moniter_receive():
                     vehicle_connection()
                     fetch_location()
                     home_lock()
+<<<<<<< HEAD
                     print("SIm!!!!!!!!!!!")
+=======
+>>>>>>> bf6c926fa17c4127fce463b7e899dece4d30d928
                     s = sim.Simulation(
                         uav_home_pos,
                         num_bots=len(vehicles),
                         env_name=file_name,
                         speed=bot_speed,
                     )
+<<<<<<< HEAD
                     print("Simulation initialized")
+=======
+>>>>>>> bf6c926fa17c4127fce463b7e899dece4d30d928
             else:
                 if master_flag:
                     for vehicle in vehicles:
@@ -652,6 +675,7 @@ robot_positions = [([0, 0]) for _ in range(10)]
 print("origin#########", origin)
 
 sleep_times = {
+<<<<<<< HEAD
     8: 0.0000001,
     7: 0.0000001,
     6: 0.0000001,
@@ -660,6 +684,16 @@ sleep_times = {
     3: 0.000001,
     2: 0.000001,
     1: 0.000001,
+=======
+    8: 0.000001,
+    7: 0.000001,
+    6: 0.000001,
+    5: 0.000001,
+    4: 0.00001,
+    3: 0.00001,
+    2: 0.00001,
+    1: 0.00001,
+>>>>>>> bf6c926fa17c4127fce463b7e899dece4d30d928
 }
 
 
